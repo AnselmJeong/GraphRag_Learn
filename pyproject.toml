@@ -1,0 +1,21 @@
+[project]
+name = "graphrag-learn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.9",
+    "langchain-core>=0.3.21",
+    "langchain-experimental>=0.3.3",
+    "langchain-neo4j>=0.1.1",
+    "langchain-ollama>=0.2.0",
+    "langchain-openai>=0.2.10",
+    "neo4j-graphrag>=1.2.1",
+    "openai>=1.55.3",
+    "python-dotenv>=1.0.1",
+    "json-repair>=0.30.2",
+    "yfiles-jupyter-graphs>=1.9.0",
+    "pandas>=2.2.3",
+]
